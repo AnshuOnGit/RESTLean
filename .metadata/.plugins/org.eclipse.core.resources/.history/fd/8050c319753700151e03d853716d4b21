@@ -1,0 +1,19 @@
+package org.com.anshu.rest.messenger.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Date;
+
+import org.com.anshu.rest.messenger.model.Message;
+
+public class MessageService {
+	
+	public List<Message> getMessages()
+	{
+		List <Message> listOfMessages= new ArrayList();
+		Message m1 = new Message(1l,"Hello Anshu",new Date(),"Anshu Kumar");
+		Message m2 = new Message(2l,"Hello World",new Date(),"Anshu Kumar");
+		return listOfMessages;
+	}
+
+}

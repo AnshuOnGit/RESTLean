@@ -1,0 +1,23 @@
+package org.com.anshu.rest.messenger.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Date;
+
+import org.com.anshu.rest.messenger.database.Database;
+import org.com.anshu.rest.messenger.model.Message;
+
+public class MessageService {
+	
+	public List<Message> getMessages()
+	{
+		return new ArrayList<Message> (Database.getMessages().values());
+	}
+	
+	public Long createMessage(){
+		
+		
+	}
+	
+
+}

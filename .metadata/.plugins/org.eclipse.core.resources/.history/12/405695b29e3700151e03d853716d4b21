@@ -1,0 +1,5 @@
+package org.com.anshu.rest.messenger.database;
+
+public class Database {
+
+}
